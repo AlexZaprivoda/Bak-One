@@ -222,7 +222,7 @@ h1 span {
   width: 76%;
 }
 
-.about div {
+.about > div {
   height: 415px;
   width: 220px;
   background-color: #ffffff;
@@ -230,6 +230,7 @@ h1 span {
   text-transform: capitalize;
   text-align: center;
   margin: 40px 0 75px 0;
+  position: relative;
 }
 
 .about h3 {
@@ -262,16 +263,16 @@ h1 span {
   width: 180px;
   height: 50px;
   position: absolute;
-  top: 1425px;
+  top: 70px;
 
-  right: 45.3%;
+  right: 20px;
   visibility: hidden;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.about img:hover + div.hidden {
+.about div div.iHover:hover img + div.hidden {
   visibility: visible;
 }
 
